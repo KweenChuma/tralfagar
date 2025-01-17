@@ -183,15 +183,59 @@ nav ul li a {
     border-radius: 25px;
 }
 
+/* Redo-section */
+.section {
+    margin: 120px 120px;
+    display: flex;
+     justify-content: space-between; 
+    /* gap: 170px; */
+}
+
+/* .section-img, .section-img1 {
+    width: 100%;  
+}  */
+
+.section-content h3 {
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.section-content p {
+    color: #7D7987;
+    font-weight: 100;
+    line-height: 1.9;
+    font-size: 17px;
+}
+
+.line-image img {
+    margin-top: 10px;
+}
+
+.sec-btns button, .downloads button{
+    outline: none;
+    box-shadow: none;
+    border: 1.5px solid #458FF6;
+    background: #fff;
+    color: #458FF6;
+    padding: 13px 40px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.sec-btns, .downloads {
+    margin-top: 70px;
+
+}
+/* 
 .section-1 {
     display: flex;
     margin: 120px 50px;
     /* justify-content: space-between; */
-    gap: 30px;
+    /* gap: 30px;
     position: relative;
-}
+} */ 
 
-.sec-img img {
+/* .sec-img img {
     width: 75%;
     text-align: left;
 }
@@ -287,7 +331,7 @@ nav ul li a {
     cursor: pointer;
     border-radius: 30px;
     margin-top: 20px;
-}
+} */
 
 .blue-background {
     margin: 120px 150px;
@@ -629,16 +673,16 @@ nav ul li a {
         font-size: 16px;
     }
 
-    .learn button {
+    .downloads button {
         width: 100%;
     }
 
-    .section-1 {
+    .section {
        flex-direction: column;
        margin: 0;
     }
 
-    .sec-img img {
+    .section-img img,.section-img1 img {
         width: 100%;
         margin-top: 40px;
     }
@@ -647,11 +691,11 @@ nav ul li a {
         font-size: 20px;
     }
 
-    .sec-btn button {
+    .sec-btns button {
         width: 100%;
     }
 
-    .section-2 {
+    .section {
         flex-direction: column;
         margin: 0;
     }
@@ -804,11 +848,12 @@ nav ul li a {
     
     .footer {
         flex-direction: column;
+        padding: 60px 21px;
     }
 }
 
 
-@media screen and (min-width: 700px) and (max-width: 1100px) {
+@media screen and (min-width: 700px) and (max-width: 1000px) {
     header {
         margin: 0 10px;
     }
@@ -835,7 +880,7 @@ nav ul li a {
     }
 
     .main-section {
-        margin: 40px 80px;
+        margin: 40px 21px;
     }
 
     br {
@@ -846,7 +891,9 @@ nav ul li a {
         width: 80%;
     }
 
-    .section-1 {
+    
+
+    /* .section-1 {
         margin: 40px 80px;
     }
 
@@ -866,7 +913,7 @@ nav ul li a {
     .next-image img {
         width: 95%;
         height: 100%;
-    }
+    } */
 
      
      .blu {
@@ -877,6 +924,10 @@ nav ul li a {
     .blue {
         display: flex;
         flex-direction: column;
+    }
+
+    .blue-background {
+        margin: 120px 8px;
     }
 
 
@@ -932,7 +983,7 @@ nav ul li a {
     }
 
     .article {
-        margin: 40px 80px;
+        margin: 40px 10px;
         padding: 10px;
     }
 
@@ -967,7 +1018,55 @@ nav ul li a {
         height: 100%;
     }
 
+    .vector {
+        right: -140px;
+    }
+    .section {
+        margin: 80px 20px;
+    }
 
+    .section {
+        flex-direction: column; 
+    }
+
+    .section-img1 {
+        margin-top: 70px;
+        width: 100%;
+    }
+
+    .section-img {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1005px) and (max-width: 1032px) {
+    .section {
+        margin: 30px 13px;
+    }
+
+    .section-img img {
+        width: 80%;
+    }
+
+    .section-img img {
+        width: 70%;
+    }
+
+    .section-img, .section-img1 {
+        width: 65%;
+    }
+
+    .sec-btns, .downloads{
+        margin-top: 40px;
+    }
+
+    .blue-background {
+        margin: 120px 24px;
+    }
+
+    .article {
+        padding: 0 15px;
+    }
 
 }
 
